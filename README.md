@@ -207,13 +207,6 @@ before exiting, and a restart resumes from `state/state.json` without re-buying 
 | `MARKET_OPEN` | `11:30` | Scheduled opening (`HH:MM`), used only to stop recon work early |
 | `SWAPS` | `0` | Post-fill upgrade swaps. Off: the live pilot rejected the model they relied on |
 
-## Not in this repository
-
-- **The API key.** It was read from the environment at runtime and is not in any commit.
-- **`state/`** — 8 MB holding 12,000 candidate records (names, cities, salaries, recruiter notes). That is
-  the organisers' data, not ours to republish.
-- **The problem statement and datasets**, which are marked for finalists only.
-
 ## Credits
 
 Team **alpha_beta**, IIT Kanpur — Abhinav Raj, Abhinav Kumar, Megha Kumari.
